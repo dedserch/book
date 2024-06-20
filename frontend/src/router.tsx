@@ -3,8 +3,8 @@ import NotFound from "./pages/NotFound";
 import { Home } from "./pages/Home";
 import { CreateBook } from "./pages/CreateBook";
 import { ShowBook } from "./pages/ShowBook";
-import { EditBook } from "./pages/EditBook";
 import { DeleteBook } from "./pages/DeleteBook";
+import EditBook from "./pages/EditBook";
 
 
 
@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
     },
     {
         path: '/books/edit/:id',
-        element: <EditBook /> 
+        element: <EditBook />
     },
     {
         path: '/books/delete/:id',
